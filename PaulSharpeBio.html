@@ -4,20 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <h2>Paul Sharpe</h2>
-    <div>
-        <div class="container">
-         <img width=300 src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/40454159_10209856711613591_1867529540683694080_n.jpg?_nc_cat=107&_nc_sid=85a577&_nc_ohc=OxYCSB6oGysAX90OuBA&_nc_ht=scontent-lhr8-1.xx&oh=0963a7e33f3f525be339cf96dd7905f3&oe=5EBCD856" />
-         <img width=170 src="haircut.jpg">
-             <br/>
-         <p> Hi guys, My name is Paul Sharpe. Im 22 years old, from Manchester, England. I shaved my head today because i doubt the hairdressers will be open for another couple of months or so, and it was starting to get in my eyes... </p>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Portfolio
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
     </div>
-             <br/>
-        <div>
+    <div class="media">
+        <img width=170 src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/29027537_10216028749741535_8645635150626972797_n.jpg?_nc_cat=105&_nc_sid=0be424&_nc_ohc=lQAEDKAaH9YAX8Rf1ag&_nc_ht=scontent-lht6-1.xx&oh=7f738470a0849ef776872c840bb9e294&oe=5EBF5902" class="mr-3" alt="...">
+        <div class="media-body">
+          <h1>Student Bio</h1>
+          Hi guys - My name is Paul Sharpe. I'm 22 years old, born and raised in Manchester, England. I am looking forward to the challenge that lies ahead!
+      
+          <div class="media mt-3">
+            <a class="mr-3" href="#">
+              <img width=80 src="haircut.jpg" class="mr-3" alt="...">
+            </a>
+            <div class="media-body">
+              <h5 class="mt-0">Fun Fact</h5>
+              I shaved my head yesterday as i cant see an end in sight for the lockdown, and it was starting to get in my eyes ...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
             <div class ="contact">
             <h2> Contact Info</h2>
             <ul>
@@ -26,6 +47,6 @@
             <li><strong>Portfolio:</strong> Coming Soon!</li>
             </ul> 
         </div>
-     </div>
+
 </body>
 </html>

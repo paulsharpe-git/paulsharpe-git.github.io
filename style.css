@@ -48,5 +48,11 @@ h2 {
 
 float: right;
 
-    }
+}
+
+.welcomeheader {
+
+    width: 50%;
+    float: left;
+
 }

@@ -61,4 +61,5 @@ canvas {
 
     z-index: 1000;
     position: relative;
+    border:0px;
 }
